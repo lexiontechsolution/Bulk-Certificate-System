@@ -8,10 +8,10 @@ export interface TextConfig {
 }
 
 export interface CertificateState {
-  templateImage: string | null; // Base64 or URL
-  names: string[];
-  currentNameIndex: number;
-  config: TextConfig;
+  templateImage: string | null;   // uploaded template image
+  names: string[];                // list of participant names
+  currentNameIndex: number;       // which name is previewed
+  config: TextConfig;             // text styling + position
 }
 
 export enum FontFamily {
@@ -29,5 +29,5 @@ export const DEFAULT_CONFIG: TextConfig = {
   fontSize: 48,
   fontFamily: FontFamily.GREAT_VIBES,
   color: '#000000',
-  textAlign: 'center',
+  textAlign: 'center'
 };
