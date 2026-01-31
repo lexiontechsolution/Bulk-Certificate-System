@@ -1,11 +1,11 @@
 import Navbar from "../../components/layout/Navbar";
 import Footer from "../../components/layout/Footer";
 import HeroSection from "../sections/HeroSection";
-// import FeaturesSection from "./sections/FeaturesSection";
-// import HowItWorksSection from "./sections/HowItWorksSection";
-// import PricingSection from "./sections/PricingSection";
-// import FAQSection from "./sections/FAQSection";
-// import CTASection from "./sections/CTASection";
+import FeaturesSection from "../sections/FeaturesSection";
+import HowItWorksSection from "../sections/HowItWorksSection";
+import PricingSection from "../sections/PricingSection";
+import FAQSection from "../sections/FAQSection";
+import CTASection from "../sections/CTASection";
 
 const LandingPage = () => {
   return (
@@ -13,11 +13,11 @@ const LandingPage = () => {
       <Navbar />
       <main className="flex-1">
         <HeroSection />
-        {/* <FeaturesSection />
+        <FeaturesSection />
         <HowItWorksSection />
         <PricingSection />
         <FAQSection />
-        <CTASection /> */}
+        <CTASection />
       </main>
       <Footer />
     </div>

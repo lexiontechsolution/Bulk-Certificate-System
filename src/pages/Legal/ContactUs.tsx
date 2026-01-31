@@ -18,7 +18,7 @@ const ContactUs = () => {
                             </div>
                             <div>
                                 <h3 className="text-white font-medium">Email</h3>
-                                <p>support@lexiontech.com</p>
+                                <p>support@lexiontech.xyz</p>
                             </div>
                         </div>
 
@@ -28,7 +28,7 @@ const ContactUs = () => {
                             </div>
                             <div>
                                 <h3 className="text-white font-medium">Website</h3>
-                                <p>www.lexiontech.com</p>
+                                <p>www.lexiontech.xyz</p>
                             </div>
                         </div>
 
