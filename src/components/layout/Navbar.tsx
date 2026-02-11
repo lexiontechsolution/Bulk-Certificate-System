@@ -8,17 +8,17 @@ const Navbar = () => {
           <span className="text-lg font-semibold tracking-tight">CERTIFY-AI</span>
         </Link>
 
-        {/* <div className="hidden md:flex items-center gap-6 text-sm text-slate-300">
-          <a href="#features">Features</a>
-          <a href="#how-it-works">How it works</a>
-          <a href="#pricing">Pricing</a>
-          <a href="#faq">FAQ</a>
-        </div> */}
+        <div className="hidden md:flex items-center gap-6 text-sm text-slate-300">
+          <Link to="/" className="hover:text-white transition-colors">Home</Link>
+          <Link to="/guides" className="hover:text-white transition-colors">Guides</Link>
+          <Link to="/about" className="hover:text-white transition-colors">About</Link>
+          <Link to="/contact" className="hover:text-white transition-colors">Contact</Link>
+        </div>
 
         <div className="flex items-center gap-3">
           <Link
             to="/app"
-            className="text-sm px-4 py-2 rounded-lg bg-indigo-500 font-medium"
+            className="text-sm px-4 py-2 rounded-lg bg-indigo-500 font-medium hover:bg-indigo-600 transition-colors"
           >
             Start Generating
           </Link>

@@ -10,6 +10,8 @@ const Footer = () => {
             <span>Bulk certificate generator for events, colleges & trainings.</span>
           </div>
           <div className="flex flex-wrap justify-center gap-x-8 gap-y-2">
+            <Link to="/" className="hover:text-white transition-colors">Home</Link>
+            <Link to="/guides" className="hover:text-white transition-colors">Knowledge Center</Link>
             <Link to="/about" className="hover:text-white transition-colors">About Us</Link>
             <Link to="/contact" className="hover:text-white transition-colors">Contact Us</Link>
             <Link to="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>

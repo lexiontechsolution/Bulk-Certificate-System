@@ -76,10 +76,38 @@ const AboutUs = () => {
 
                     {/* Company Section */}
                     <section className="p-12 md:p-16 rounded-[3rem] bg-gradient-to-br from-indigo-900/20 to-purple-900/20 border border-white/5 text-center">
-                        <h2 className="text-4xl font-bold text-white mb-6">About Lexiontech</h2>
-                        <p className="text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
+                        <h2 className="text-4xl font-bold text-white mb-8">About Lexiontech</h2>
+                        <p className="text-xl text-slate-300 max-w-4xl mx-auto leading-relaxed mb-8">
                             CertifyAI is a flagship product of Lexiontech, a research-driven technology firm based in India. We specialize in building automated solutions for educational institutions and corporate enterprises, bridging the gap between complex data and beautiful design.
                         </p>
+                        <div className="grid md:grid-cols-2 gap-8 text-left">
+                            <div className="bg-slate-900/50 p-8 rounded-2xl border border-white/5">
+                                <h3 className="text-2xl font-bold text-white mb-4">Our Vision</h3>
+                                <p className="text-slate-400">To become the global standard for digital achievement verification, making credentials more portable and trustworthy for everyone.</p>
+                            </div>
+                            <div className="bg-slate-900/50 p-8 rounded-2xl border border-white/5">
+                                <h3 className="text-2xl font-bold text-white mb-4">Our Values</h3>
+                                <p className="text-slate-400">We prioritize design excellence, technical integrity, and user privacy in everything we build. Our tools are made by humans, for humans.</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    {/* Impact Section */}
+                    <section className="space-y-12">
+                        <div className="text-center">
+                            <h2 className="text-4xl font-bold tracking-tight mb-6">Global Impact in Education</h2>
+                            <p className="text-xl text-slate-400 max-w-3xl mx-auto">
+                                Supporting over 500+ institutions worldwide in their transition to digital-first certification.
+                            </p>
+                        </div>
+                        <div className="prose prose-invert prose-lg max-w-4xl mx-auto text-slate-300 space-y-6">
+                            <p>
+                                Since our inception, CertifyAI has focused on solving the logistical nightmare of "Graduation Season". By partnering with universities and training centers, we've identified that traditional certificate printing is not only expensive but environmentally taxing.
+                            </p>
+                            <p>
+                                Our platform reduces carbon footprints by eliminating paper waste while simultaneously increasing the security of the credentials issued. Every certificate generated through Lexiontech systems is backed by our proprietary verification layer, ensuring that hard-earned achievements cannot be diluted by fraudulent copies.
+                            </p>
+                        </div>
                     </section>
                 </div>
             </main>

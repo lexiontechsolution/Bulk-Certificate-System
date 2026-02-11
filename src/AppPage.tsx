@@ -1,6 +1,6 @@
-import Navbar from "../src/components/layout/Navbar";
-import Footer from "../src/components/layout/Footer";
-import CertificateApp from "../src/components/certificate/CertificateApp";
+import Navbar from "./components/layout/Navbar";
+import Footer from "./components/layout/Footer";
+import CertificateApp from "./components/certificate/CertificateApp";
 
 const AppPage = () => {
   return (
